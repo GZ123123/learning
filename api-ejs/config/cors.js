@@ -1,9 +1,8 @@
 const cors = require('cors');
 
 const _default = {
-	origin: (origin, db) => { 
-		cb('*');
-	}
+	origin: "*",
+	optionsSuccessStatus: 200
 }
 	
 module.exports = (app) => {

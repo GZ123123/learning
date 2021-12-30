@@ -10,7 +10,11 @@ if(process.env.NODE_ENV !== 'test') {
 }
 
 require('./config')(app);
-require('./routes/index.js')(app);
+require('./routes')(app);
+
+app.get('/', (req, res) => {
+	res.status(200).json({ success: true });
+})
 
 app.listen(PORT);
 
