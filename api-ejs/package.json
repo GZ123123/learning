@@ -1,7 +1,6 @@
 {
   "name": "api-ejs",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -12,8 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
     "express": "^4.17.2",
-    "morgan": "^1.10.0"
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "chai": "^4.3.4",
