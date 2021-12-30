@@ -1,10 +1,11 @@
+const cors = require('cors');
 
-const cors = {
-	default: {
-		origin: (origin, cb) => {
-			cb('*')
-		}		
+const _default = {
+	origin: (origin, db) => { 
+		cb('*');
 	}
 }
-
-module.exports = cors;
+	
+module.exports = (app) => {
+	app.use(cors(_default));
+} 
