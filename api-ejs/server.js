@@ -1,5 +1,4 @@
 const express = require('express');
-const session = require('express-session');
 const morgan = require('morgan');
 
 const app = express();
@@ -10,11 +9,8 @@ if(process.env.NODE_ENV !== 'test') {
 }
 
 require('./config')(app);
-require('./routes')(app);
 
-app.get('/', (req, res) => {
-	res.status(200).json({ success: true });
-})
+require('./routes')(app);
 
 app.listen(PORT);
 
