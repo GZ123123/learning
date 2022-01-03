@@ -14,7 +14,7 @@ const _walk = async (data, db, func, next) => {
 }
 
 const connection = async (...cbs) => {
-  const _db = connect();
+  const _db = _connect();
   const data = await _walk(null, _db, cbs[0], cbs.slice(1))
   _db.close();
   return data
