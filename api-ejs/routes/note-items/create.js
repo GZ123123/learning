@@ -1,7 +1,7 @@
-const { uid } = require("uid");
+const { uid } = require('uid');
 
 module.exports = (data) => {
 	const _id = uid(36);
 
-	return true
+	return data
 }
