@@ -1,4 +1,5 @@
-module.exports = (id) => {
+const { dalete as remove } = require('../../queries/notes');
 
-	return true;
+module.exports = (id) => {
+	return remove(id);
 }
