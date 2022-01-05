@@ -1,8 +1,10 @@
 module.exports = (app) => {
-  require('./cors')(app)
-
-  require('./body-parser')(app)
-  require('./files')(app)
-
-  require('./session')(app)
-}
+	[
+		"./cors",
+		"./compression",
+		"./helmet",
+		"./body-parser",
+		"./files",
+		"./session",
+	].forEach((m) => require(m)(app));
+};
