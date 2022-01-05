@@ -1,6 +1,6 @@
 const fs = require('fs');
 const multer = require('multer');
-
+const sharp = require('sharp');
 const path = require('path');
 
 const dest = (filename = '') => path.join(process.cwd(), ".tmp", filename);
@@ -15,8 +15,8 @@ const storage = multer.diskStorage({
 
 module.exports = {
 	uploader: multer({ storage }),
-	saver: (file) => fs.rename(dest(file.filename), to(file.originalname), (err) => {
-		if (err) throw err;
-		console.log("upload success")
-	})
+	saver: async (file) => 
+		await sharp(dest(f.filename))
+			.toFile(to(f.originalname))
+	 
 }
