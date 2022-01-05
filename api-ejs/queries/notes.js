@@ -66,8 +66,8 @@ const update = (id, _data) => {
 			})
 		}),
 		(data, db) => new Promise((res, rej) => {
-			console.log("------>", data, _data);
 			if(!data) return res(null);
+
 			let _query =  `UPDATE notes SET `;
 			let _update = [];
 

@@ -37,6 +37,11 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
 	const _res = await require('./update')(req.params['id'], req.body);
 
+	if(!_res)
+		return res.status(202).format({
+			json: () => res.send({ status: false })
+		});
+
 	return res.status(200).format({
 		json: () => res.send({ status: true, data: { _res } })
 	});
@@ -46,7 +51,7 @@ router.delete('/:id', async (req, res) => {
 	const _res = await require('./delete')(req.params['id']);
 
 	return res.status(200).format({
-		json: () => res.send({ status: true, data: _id  })
+		json: () => res.send({ status: true, data: _res  })
 	});
 });
 
