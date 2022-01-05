@@ -15,8 +15,10 @@ const storage = multer.diskStorage({
 
 module.exports = {
 	uploader: multer({ storage }),
-	saver: async (file) => 
-		await sharp(dest(f.filename))
+	saver: async (file) => { 
+		const _res = await sharp(dest(f.filename))
 			.toFile(to(f.originalname))
-	 
+		fs.unlink(dest(f.filename))
+		return _res;
+	}
 }
