@@ -1,6 +1,5 @@
-
+const { delete as remove } = require('../../queries/note-items');
 
 module.exports = (id) => {
-
-	return id;
+	return remove(id);
 } 

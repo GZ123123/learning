@@ -5,7 +5,15 @@ const { uploader } = require('../../utils/uploader');
 
 const router = Router();
 
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
+	const _id = req.params['id'];
+
+	const data = await require('./get-by-id')(_id);
+
+	if(!data)
+		return res.status(404).format({
+			json: () => res.send({ success: false })
+		});
 
 	return res.status(200).format({
 		json: () => res.send({ success: true })
@@ -17,36 +25,44 @@ router.post('/:note_id', uploader.array('photos', 5), async (req, res) => {
   const _body = req.body;
 	const _files = req.files.map(f => f);
 
-	console.log("note id: ", _note_id);
-	console.log("body: ", _body);
-	console.log("files: ", _files);
+	const data = await require('./create')(_note_id, _body, _files);
 
-	_files.forEach(f => 
-		sharp(f.path)
-		//.resize(200, 300)
-		.toFile(process.cwd()+'/uploads/_tmp.webp', 
-				function (err, info) {
-					if(err) console.log(err);
-					else console.log("sharp", info)
-		})
-	)
+	if(!data)
+		return res.status(400).format({
+			json: () => res.send({ success: false })
+		});
 
 	return res.status(200).format({
 		json: () => res.send({ success: true })
 	});
 })
 
-router.put('/:id', uploader.array('photos', 5), (req, res) => {
+router.put('/:id', uploader.array('photos', 5), async (req, res) => {
 	const _id = req.params['id'];
   const _body = req.body;
-	const files = req.files;
+	const _files = req.files;
+
+	const data = await require('./update')(_id, _body, _files);
+
+	if(!data)
+		return res.status(400).format({
+			json: () => res.send({ success: false })
+		});
+
 	return res.status(200).format({
 		json: () => res.send({ success: true })
 	});
 })
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id', async (req, res) => {
 	const _id = req.params['id'];
+
+	const _res = await require('./delete')(_id);
+
+	if(!_res)
+		res.status(404).format({
+			json: () => res.send({ success: false  })
+		});
 
 	return res.status(200).format({
 		json: () => res.send({ success: true })

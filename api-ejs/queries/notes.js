@@ -20,8 +20,13 @@ const getAll = (queries) => {
 };
 
 const getById = (id) => {
-	let _query = `SELECT * FROM notes where id = ?`;
-	let _query_items = `SELECT * FROM note_items where note_id = ?`;
+	let _query = `SELECT * FROM notes WHERE id = ?`;
+	let _query_items = 
+		`SELECT id, 
+			IIF(is_spend = true, note_items.money, -1 * note_items.money) as money,
+			description, created_at 
+		FROM note_items WHERE note_id = ?`;
+
 	return connection(
 		(data, db) =>
 			new Promise((res, rej) =>
@@ -29,8 +34,8 @@ const getById = (id) => {
 			),
 		(data, db) =>
 			new Promise((res, rej) =>
-				db.all(_query_items, [id], (err, rows) =>
-					rows ? res({ ...data, items: rows }) : res({ ...data, items: [] })
+				db.all(_query_items, [id], (err, rows) => 
+					res({ ...data, items: rows }) 
 				)
 			)
 	);
@@ -38,8 +43,9 @@ const getById = (id) => {
 
 const create = (_data) => {
 	let _query =
-		`INSERT INTO notes(id, name, name_slug, description, income, willspend, save) ` +
-		`VALUES(?, ?, ?, ?, ?, ?, ?)`;
+		`INSERT INTO 
+			notes (id, name, name_slug, description, income, willspend, save) 
+			VALUES (?, ?, ?, ?, ?, ?, ?)`;
 	return connection(
 		(data, db) =>
 			new Promise((res, rej) =>
@@ -56,7 +62,7 @@ const create = (_data) => {
 					],
 					(err) => {
 						console.log(err);
-						err ? res(null) : res(_data);
+						err ? rej(null) : res(_data);
 					}
 				)
 			)
@@ -64,10 +70,11 @@ const create = (_data) => {
 };
 
 const update = (id, _data) => {
+	const _query = `SELECT id FROM notes WHERE id = ?`;
 	return connection(
 		(data, db) =>
 			new Promise((res, rej) => {
-				db.get(`SELECT * FROM notes where id = ?`, [id], (err, row) => {
+				db.get(_query, [id], (err, row) => {
 					err ? rej(null) : res(row);
 				});
 			}),
