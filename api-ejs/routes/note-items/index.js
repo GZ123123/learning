@@ -16,14 +16,14 @@ router.get('/:id', async (req, res) => {
 		});
 
 	return res.status(200).format({
-		json: () => res.send({ success: true })
+		json: () => res.send({ success: true, data })
 	});
 })
 
 router.post('/:note_id', uploader.array('photos', 5), async (req, res) => {
 	const _note_id = req.params['note_id'];
   const _body = req.body;
-	const _files = req.files.map(f => f);
+	const _files = req.files ?? [];
 
 	const data = await require('./create')(_note_id, _body, _files);
 
@@ -33,14 +33,14 @@ router.post('/:note_id', uploader.array('photos', 5), async (req, res) => {
 		});
 
 	return res.status(200).format({
-		json: () => res.send({ success: true })
+		json: () => res.send({ success: true, data })
 	});
 })
 
 router.put('/:id', uploader.array('photos', 5), async (req, res) => {
 	const _id = req.params['id'];
   const _body = req.body;
-	const _files = req.files;
+	const _files = req.files ?? [];
 
 	const data = await require('./update')(_id, _body, _files);
 
@@ -49,7 +49,7 @@ router.put('/:id', uploader.array('photos', 5), async (req, res) => {
 			json: () => res.send({ success: false })
 		});
 
-	return res.status(200).format({
+	return res.status(202).format({
 		json: () => res.send({ success: true })
 	});
 })

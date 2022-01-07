@@ -11,7 +11,7 @@ const getAll = (queries) => {
 		_where.push(`name_slug like '%${remove_unicode(queries.name)}%'`);
 
 	if (!!_where.length) _query += ` WHERE ${_where.join(" and ")} `;
-	_query += ` order by created_at `;
+	_query += ` order by created_at DESC`;
 
 	return connection(
 		(data, db) =>
@@ -23,9 +23,9 @@ const getById = (id) => {
 	let _query = `SELECT * FROM notes WHERE id = ?`;
 	let _query_items = 
 		`SELECT id, 
-			IIF(is_spend = true, note_items.money, -1 * note_items.money) as money,
+			IIF(is_spend = true, -1 * note_items.money, note_items.money) as money,
 			description, created_at 
-		FROM note_items WHERE note_id = ?`;
+		FROM note_items WHERE note_id = ? Order By created_at DESC`;
 
 	return connection(
 		(data, db) =>

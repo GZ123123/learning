@@ -25,14 +25,14 @@ router.get("/:id", async (req, res) => {
 });
 
 router.post("/", async (req, res) => {
-	const _data = await require("./create")(req.body).catch(res.status(404));
+	const data = await require("./create")(req.body).catch(res.status(404));
 
 	if (!_data)
 		return res.status(400).format({
 			json: () => res.send({ status: false }),
 		});
 	return res.status(201).format({
-		json: () => res.send({ status: true, data: _data }),
+		json: () => res.send({ status: true, data }),
 	});
 });
 
@@ -50,7 +50,7 @@ router.put("/:id", async (req, res) => {
 		});
 
 	return res.status(202).format({
-		json: () => res.send({ status: true, data: { id: req.params["id"] } }),
+		json: () => res.send({ status: true }),
 	});
 });
 

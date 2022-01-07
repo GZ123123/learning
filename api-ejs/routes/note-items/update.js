@@ -7,7 +7,7 @@ module.exports = (id, body, files) => {
 		money, is_spend, description
 	}))(body);
 
-	const removed = body.removed.split(',');
+	const removed = body.removed?.split(',');
 
 	return update(id, _data, files, removed);
 }
