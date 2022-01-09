@@ -1,4 +1,4 @@
-const connection = require("../config/connect");
+const connection = require("../utils/db");
 const { remove_unicode } = require("../utils/funcs");
 
 const getAll = (queries) => {
@@ -13,41 +13,36 @@ const getAll = (queries) => {
 	if (!!_where.length) _query += ` WHERE ${_where.join(" and ")} `;
 	_query += ` order by created_at DESC`;
 
-	return connection(
-		(data, db) =>
-			new Promise((res, rej) => db.all(_query, (err, rows) => res(rows)))
+	return connection()(
+		(db) => new Promise((res, rej) => db.all(_query, (err, rows) => res(rows)))
 	);
 };
 
 const getById = (id) => {
 	let _query = `SELECT * FROM notes WHERE id = ?`;
-	let _query_items = 
-		`SELECT id, 
+	let _query_items = `SELECT id, 
 			IIF(is_spend = true, -1 * note_items.money, note_items.money) as money,
 			description, created_at 
 		FROM note_items WHERE note_id = ? Order By created_at DESC`;
 
-	return connection(
-		(data, db) =>
+	return connection()(
+		(db) =>
 			new Promise((res, rej) =>
 				db.get(_query, [id], (err, row) => (row ? res(row) : rej(null)))
 			),
-		(data, db) =>
+		(db, data) =>
 			new Promise((res, rej) =>
-				db.all(_query_items, [id], (err, rows) => 
-					res({ ...data, items: rows }) 
-				)
+				db.all(_query_items, [id], (err, rows) => res({ ...data, items: rows }))
 			)
 	);
 };
 
 const create = (_data) => {
-	let _query =
-		`INSERT INTO 
+	let _query = `INSERT INTO 
 			notes (id, name, name_slug, description, income, willspend, save) 
 			VALUES (?, ?, ?, ?, ?, ?, ?)`;
-	return connection(
-		(data, db) =>
+	return connection()(
+		(db) =>
 			new Promise((res, rej) =>
 				db.run(
 					_query,
@@ -71,14 +66,14 @@ const create = (_data) => {
 
 const update = (id, _data) => {
 	const _query = `SELECT id FROM notes WHERE id = ?`;
-	return connection(
-		(data, db) =>
+	return connection()(
+		(db) =>
 			new Promise((res, rej) => {
 				db.get(_query, [id], (err, row) => {
 					err ? rej(null) : res(row);
 				});
 			}),
-		(data, db) =>
+		(db, data) =>
 			new Promise((res, rej) => {
 				if (!data) return res(null);
 
@@ -113,8 +108,8 @@ const update = (id, _data) => {
 
 const _delete = (id) => {
 	let _query = `DELETE FROM notes WHERE id = ?`;
-	return connection(
-		(data, db) =>
+	return connection()(
+		(db) =>
 			new Promise((res, rej) => {
 				db.run(_query, [id], (err, row) => (err ? res(false) : res(true)));
 			})
