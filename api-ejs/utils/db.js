@@ -1,4 +1,5 @@
 const { connect } = require("../config/connect");
+const logger = require("./logger");
 
 const success = (data) => ({
 	success: true,
@@ -21,10 +22,17 @@ const _walk = async (db, data, func, next) => {
 };
 
 const doSQLQuery = async (...cb) => {
+	const profiler = logger.startTimer();
+
 	const _db = connect();
 	const _data = await _walk(_db, null, cb[0], cb.splice(1));
 	_db.close();
-	if (!_data.message) return success(_data);
+
+	profiler.done({ level: "debug", type: "sql query", message: "Done query" });
+	if (!_data.message) {
+		logger.log({ level: "error", type: "sql query", message: _data.message });
+		return success(_data);
+	}
 	return _data;
 };
 

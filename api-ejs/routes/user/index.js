@@ -1,19 +1,18 @@
 const { Router } = require("express");
 const router = Router();
 
-const connection = require("../../config/connect");
+const logger = require("../../utils/logger");
 
 router.get("/", async (req, res) => {
-	const _res = await connection(
-		(db, data) =>
-			new Promise((res, rej) => {
-				db.all(`Select * from user`, (err, rows) => {
-					if (err) return rej(err);
-					res(rows);
-				});
-			})
-	);
-	console.log("res", _res);
+	// logger.log({
+	// 	level: "debug",
+	// 	message: "ASd",
+	// });
+	// const profiler = logger.startTimer();
+
+	// setTimeout(function () {
+	// 	profiler.done({ level: "info", message: "Logging message" });
+	// }, 1000);
 
 	res.status(200).format({
 		json: () => res.send({ message: "hello" }),

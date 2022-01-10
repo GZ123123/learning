@@ -1,6 +1,7 @@
 .git
 .env
 .tmp
+.log
 
 node_modules/
 
