@@ -9,7 +9,7 @@ if(process.env.NODE_ENV !== 'test') {
 }
 
 require('./config')(app);
-
+require('./middleware')(app);
 require('./routes')(app);
 
 app.listen(PORT);

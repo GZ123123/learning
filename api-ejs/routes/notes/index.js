@@ -1,5 +1,6 @@
 const { Router } = require("express");
-
+const { validationResult } = require('express-validator');
+const { createNotes } = require("../../middleware/notes.middleware");
 const router = Router();
 
 router.get("/", async (req, res) => {
@@ -14,14 +15,12 @@ router.get("/:id", async (req, res) => {
 		res.status(404)
 	);
 
-	console.log(_res);
-
 	return res.status(_res.success ? 200 : 204).format({
 		json: () => res.send(_res),
 	});
 });
 
-router.post("/", async (req, res) => {
+router.post("/", createNotes,async (req, res) => {
 	const _res = await require("./create")(req.body).catch(res.status(404));
 
 	return res.status(_res.success ? 201 : 400).format({
