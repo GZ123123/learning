@@ -1,19 +1,33 @@
+import axios from 'axios'; 
+
+import { getAllNotes, getNoteById } from './_constants';
+
 import { INotes, INote } from "../interfaces"
 
-function getAll(): Array<INotes> {
-  return []
+async function getAll(): Promise<Array<INotes>> {
+  return await axios.get(getAllNotes).then(b => b?.data).catch(e => ({ success: false }))
 }
 
-function getById(): INote | undefined {
-  return {
-    id: '1',
-    name: '1',
+async function getById(id: string): Promise<INote | undefined> {
+  return await axios.get(`${getNoteById}/${id}`).then(b => b?.data).catch(e => ({ success: false }))
+}
 
-    items: []
-  }
+async function create(data: any): Promise<INote | undefined> {
+  return;
+}
+
+async function update(id: string, data: any): Promise<INote | undefined> {
+  return;
+}
+
+async function remove(data: any): Promise<boolean> {
+  return false;
 }
 
 export {
   getAll,
-  getById
+  getById,
+  create,
+  update,
+  remove
 }
