@@ -111,7 +111,6 @@ const update = (id, _data, files, removed) => {
 				);
 				if (_files.length) {
 					_query_images += _files.join(", ");
-					console.log("Query Images", _query_images);
 					db.run(_query_images, (err) => {
 						if (err) rej({ error: true, message: "Upload Image", data });
 					});

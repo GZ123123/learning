@@ -1,0 +1,405 @@
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31
+Error: Could not find a production build in the '/var/www/learning/my-app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:1872:23)
+    at new Server (/var/www/learning/my-app/node_modules/next/dist/server/next-server.js:104:29)
+    at NextServer.createServer (/var/www/learning/my-app/node_modules/next/dist/server/next.js:111:16)
+    at async /var/www/learning/my-app/node_modules/next/dist/server/next.js:123:31

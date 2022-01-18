@@ -6,8 +6,6 @@ const createNotes = validator(
 	check('income', 'Income is required').notEmpty()
 );
 
-console.log(createNotes);
-
 module.exports = {
 	createNotes	
 };
