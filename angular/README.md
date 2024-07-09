@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## 1. [Config Angular Project](./docs/config.md)
+## 2. [Project Structure](./docs/structure.md)
+  ### 2.1 [Module](./docs/module/module.md)
+  ### 2.2 [Component](./docs/module/component.md)
+  ### 2.3 [Service](./docs/module/service.md)
+  ### 2.4 [Pipe](./docs/module/pipe.md)
+  ### 2.5 [Directive](./docs/module/diretive.md)
+## 3. [Routing](./docs/routing.md)

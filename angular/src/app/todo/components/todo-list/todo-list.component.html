@@ -1,4 +1,8 @@
 {{ title }}
 <p>todo-list works!</p>
 
-<app-todo-card></app-todo-card>
+@for (item of shopItems$; track item.id) {
+  <app-todo-card [item]="item"></app-todo-card>
+}
+
+<button mat-flat-button (click)="create($event)">Basic</button>
