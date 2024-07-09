@@ -2,7 +2,13 @@
 <p>todo-list works!</p>
 
 @for (item of shopItems$; track item.id) {
-  <app-todo-card [item]="item"></app-todo-card>
+<app-todo-card [item]="item"></app-todo-card>
 }
 
 <button mat-flat-button (click)="create($event)">Basic</button>
+
+<ng-template select let-data [selectFrom]="source">
+  <div>{{ data | json }}</div>
+</ng-template>
+
+<div *select="let data; from: source.title">{{ data }}</div>
