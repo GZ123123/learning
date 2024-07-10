@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th *ngFor="let column of columns">
+        {{ column.render() }}
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of data; index as i" >
+      <td *ngFor="let column of columns">
+        {{ row[column.key] }}
+      </td>
+    </tr>
+  </tbody>
+</table>
