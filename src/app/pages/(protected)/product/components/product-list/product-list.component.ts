@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IColumn } from '../../../../shared/components/table/table.component';
+import { IColumn } from 'shared/components/table/table.component';
 
 
 export interface PeriodicElement {
