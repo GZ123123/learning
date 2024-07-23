@@ -2,12 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TableComponent } from './components/table/table.component';
 import { MaterialModule } from './material.module';
-import { TableCellComponent } from './components/table-cell/table-cell.component';
-import { TableCellDirective } from './components/table-cell/table-cell.directive';
+import { DataTableComponent } from './components/datatable/datatable.component';
 
 @NgModule({
   declarations: [  ],
-  imports: [ CommonModule, MaterialModule, TableComponent, TableCellComponent, TableCellDirective ],
-  exports: [ CommonModule, MaterialModule, TableComponent, TableCellComponent, TableCellDirective ]
+  imports: [ CommonModule, MaterialModule, TableComponent, DataTableComponent ],
+  exports: [ CommonModule, MaterialModule, TableComponent, DataTableComponent ]
 })
 export class SharedModule { }

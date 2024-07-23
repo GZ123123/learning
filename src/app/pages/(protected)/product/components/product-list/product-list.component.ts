@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataTableDefineDirective } from 'shared/components/datatable/datatable-define.directive';
 import { IColumn } from 'shared/components/table/table.component';
 
 
@@ -25,7 +26,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrl: './product-list.component.scss'
+  styleUrl: './product-list.component.scss',
 })
 export class ProductListComponent {
   columns: IColumn[] = [{
