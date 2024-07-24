@@ -12,6 +12,6 @@ export class DataTableFootDirective {
 
     table.tableFooter = this
 
-    table._outletAssigned()
+    table.outletAssigned()
   }
 }

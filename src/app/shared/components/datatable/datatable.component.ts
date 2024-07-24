@@ -1,11 +1,9 @@
-import { AfterContentInit, Component, ContentChildren, inject, QueryList, ViewChild, ViewChildren } from "@angular/core";
+import { AfterContentInit, Component, ContentChildren, Input, QueryList } from "@angular/core";
 import { DATATABLE_INJECT } from "./datatable.constant";
 import { DataTableHeadDirective } from "./datatable-head.directive";
 import { DataTableBodyDirective } from "./datatable-body.directive";
 import { DataTableFootDirective } from "./datatable-foot.directive";
-import { DataTableCellComponent } from "./cell/datatable-cell.component";
-import { DataTableDefineDirective } from "./datatable-define.directive";
-import { AuthService } from "libs/services/auth.service";
+import { DataTableColumnDefineDirective } from "./datatable-column.define.directive";
 
 @Component({
   imports: [DataTableHeadDirective, DataTableBodyDirective, DataTableFootDirective],
@@ -33,6 +31,9 @@ import { AuthService } from "libs/services/auth.service";
   providers: [{ provide: DATATABLE_INJECT, useExisting: DataTableComponent }]
 })
 export class DataTableComponent implements AfterContentInit {
+  @Input('data')
+  data: any
+
   private _haveAllOutletAssigned =  false
   private _haveContentInit = false
 
@@ -40,28 +41,33 @@ export class DataTableComponent implements AfterContentInit {
   public tableBody?: DataTableBodyDirective
   public tableFooter?: DataTableFootDirective
 
-  @ContentChildren(DataTableDefineDirective)
-  private defined?: QueryList<DataTableDefineDirective>
-
-  private service = inject(AuthService)
+  @ContentChildren(DataTableColumnDefineDirective)
+  private defined?: QueryList<DataTableColumnDefineDirective>
 
   constructor() {
-
   }
 
   ngAfterContentInit(): void {
     this._haveContentInit = true
 
-    this._outletAssigned()
+    this.outletAssigned()
   }
-
+  // #region Private
   private _render() {
-    console.log('log - this._tr: ', this.defined?.first.name)
+    this._getComlumnDefine()
 
-    this.tableBody?.view.createComponent(DataTableCellComponent)
+    // this.tableBody?.view.createComponent(DataTableCellComponent)
   }
 
-  public _outletAssigned() {
+  private _getComlumnDefine() {
+    this.defined?.forEach(defined => {
+      console.log(defined.render(this.data))
+    })
+  }
+  // #endregion
+
+  // #region Public
+  public outletAssigned() {
     if(!this._haveAllOutletAssigned && this.tableHeader && this.tableBody && this.tableFooter && this._haveContentInit) {
       this._haveAllOutletAssigned = true
 
@@ -69,4 +75,5 @@ export class DataTableComponent implements AfterContentInit {
     }
   }
 
+  // #endregion
 }

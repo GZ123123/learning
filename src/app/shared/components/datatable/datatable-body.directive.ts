@@ -12,6 +12,6 @@ export class DataTableBodyDirective {
 
     table.tableBody = this
 
-    table._outletAssigned()
+    table.outletAssigned()
   }
 }

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DataTableDefineDirective } from 'shared/components/datatable/datatable-define.directive';
 import { IColumn } from 'shared/components/table/table.component';
 
 

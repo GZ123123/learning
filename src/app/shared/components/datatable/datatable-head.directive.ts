@@ -12,6 +12,6 @@ export class DataTableHeadDirective {
 
     table.tableHeader = this
 
-    table._outletAssigned()
+    table.outletAssigned()
   }
 }

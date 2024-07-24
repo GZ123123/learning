@@ -2,13 +2,11 @@
 
 <app-table [columns]="columns" [data]="data" />
 
-<data-table>
-  <ng-container dataTableDefine="name">
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
+<data-table [data]="dataSource">
+  <ng-container dataTableColumnDefine="name">
+    <ng-container *dataTableCellDefine="let element">
+      <div>{{ element }}</div>
+    </ng-container>
   </ng-container>
 </data-table>
 
