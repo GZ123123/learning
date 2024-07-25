@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { IColumn } from 'shared/components/table/table.component';
-
+import { Router } from '@angular/router';
+import { TableColumns } from 'shared/components/table-2/table.component';
 
 export interface PeriodicElement {
   name: string;
@@ -28,53 +28,24 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrl: './product-list.component.scss',
 })
 export class ProductListComponent {
-  columns: IColumn[] = [{
-    key: 'id',
-    render: () => 'id'
-  },{
-    key: 'title',
-    render: () => 'title'
-  },{
-    key: 'amount',
-    render: () => 'amount'
-  },{
-    key: 'action',
-    render: () => 'action'
-  }]
-
-  data: any[] = [
-    {
-      id: 1,
-      title: 'title 1',
-      amount: 'amount 1',
-      action: 'action 1'
-    },
-    {
-      id: 2,
-      title: 'title 2',
-      amount: 'amount 2',
-      action: 'action 2'
-    },
-    {
-      id: 3,
-      title: 'title 3',
-      amount: 'amount 3',
-      action: 'action 3'
-    }
-  ]
-
   dataSource = ELEMENT_DATA;
 
-  onClick() {
-    const id = Date.now()
-    console.log('log - id: ', id)
-    this.data.push({
-      id: id,
-      title: `title ${id}`,
-      amount: `amount ${id}`,
-      action: `action ${id}`
-    })
+  columnDefs: TableColumns<PeriodicElement> = [
+    {
+      key: 'position',
+      label: () => `Position`,
+      render: (row) => `${row.position}`,
+    },
+    {
+      key: 'name',
+      label: () => `Name`,
+      render: (row) => `<b >${row.name}</b>`,
+    },
+  ]
 
-    console.log('log - this.data:', this.data)
+  constructor(private router: Router) {}
+
+  onRowClick(data: { index: number, item: PeriodicElement }) {
+    this.router.navigate(['/products', data.item.position]);
   }
 }
