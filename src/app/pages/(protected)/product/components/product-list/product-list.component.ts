@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, computed, signal } from '@angular/core';
 import { Router } from '@angular/router';
+import { count } from 'rxjs';
 import { TableColumns } from 'shared/components/table-2/table.component';
 
 export interface PeriodicElement {
@@ -41,11 +42,34 @@ export class ProductListComponent {
       label: () => `Name`,
       render: (row) => `<b >${row.name}</b>`,
     },
+    {
+      key: 'position',
+      label: () => `Position`,
+      render: (row) => `<b>${row.position}</b>`,
+    },
   ]
+
+  showCount = signal(false);
+  count = signal(0);
+  conditionalCount = computed(() => {
+    if (this.showCount()) {
+      return `The count is ${this.count()}.`;
+    } else {
+      return 'Nothing to see here!';
+    }
+  });
 
   constructor(private router: Router) {}
 
   onRowClick(data: { index: number, item: PeriodicElement }) {
     this.router.navigate(['/products', data.item.position]);
+  }
+
+  onClickCount() {
+    this.count.update((prev) => prev + 1);
+  }
+
+  onClickShow() {
+    this.showCount.update((prev) => !prev);
   }
 }

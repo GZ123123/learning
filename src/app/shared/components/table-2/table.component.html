@@ -1,7 +1,7 @@
 <div class="table" role="table">
   <div class="table-header" role="rowheader">
     <div class="table-row" role="row" [style]="_style">
-      <div *ngFor="let column of _columns" class="table-cell" role="cell" (mousedown)="onMouseDown($event)">
+      <div *ngFor="let column of _columns; index as i" class="table-cell" role="cell" (mousedown)="onMouseDown($event, i)">
         <div [innerHTML]="_headerRenderer[column]()"></div>
       </div>
     </div>
@@ -15,9 +15,8 @@
       [style]="_style"
     >
       <div *ngFor="let column of _columns" class="table-cell" role="cell">
-        <div  [innerHTML]="_cellRenderer[column](item)"></div>
+        <div [innerHTML]="_cellRenderer[column](item)"></div>
       </div>
     </div>
   </div>
 </div>
-

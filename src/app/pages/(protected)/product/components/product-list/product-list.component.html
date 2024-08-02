@@ -1,3 +1,8 @@
 <p>product-list works!</p>
 
 <app-table-2 [columns]="columnDefs" [data]="dataSource" (rowDbClick)="onRowClick($event)"/>
+
+{{ conditionalCount() }}
+
+<button (click)="onClickCount()"> count </button>
+<button (click)="onClickShow()"> show </button>
